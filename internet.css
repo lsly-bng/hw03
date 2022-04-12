@@ -1,0 +1,97 @@
+@charset "UTF-8";
+	/* body {font-family: "맑은 고딕"; font-size: 17px;} */
+	/* body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, 
+	fieldset, legend, p, select, table, th, td, tr, textarea, 
+	button, form {font-family: "맑은 고딕"; font-size: 17px;} */
+	* {
+		font-family: "맑은 고딕";
+		font-size: 17px;
+		}
+	h1 {
+		font-family: 궁서;
+		font-size: 30px;
+		letter-spacing: 15px;
+		}
+	h2 {
+		font-size: 25px;
+		}
+	h3 {
+		font-size: 20px;
+		}
+
+	.ita {
+		font-style: italic;
+		} 
+	.b {
+		font-weight: bold;
+		}	
+	.blu {
+		color: #0000ff;
+		}
+	.red {
+		color: #ff0000;
+		}
+	.grn {
+		color: #00ff00;
+		}
+	.und {
+		text-decoration: underline;
+		} 
+	h3+p {
+		text-indent: 30px;
+		}
+	/* alternative: 
+	.txt_ind
+		{
+		text-indent: 30px;
+		}*/
+	.bg_gry {
+		background-color: #d9d9d9;
+		}
+	ul {
+		list-style-type: square;
+		}
+	ol {
+		list-style-type: none;
+	}
+	thead {
+		background-color: #c8ebfa;
+		}
+	table a:link {
+		color: #000000;
+		text-decoration: none;
+		}
+	table a:visited {
+		color: #000000;
+		}
+	table a:hover {
+		color: #0000ff; 
+		text-decoration: underline;
+		}
+	table a:active {
+		color: #0000ff;
+		text-decoration: underline;
+		}
+	tbody tr:hover {
+		background-color: #edd3ed;
+		}
+	table td+td {
+		text-align: right;
+		}
+	table td+td:before {
+		content: "약"
+		}
+	table td+td:after {
+		content: "(MB/초)"
+		}  
+	/* 	alternative : 
+	.r_align {
+		text-align: right;
+		}
+	.speed:before {
+		content: "약";
+		}
+	.speed:after {
+		content: "(MB/초)"
+		} */
+
